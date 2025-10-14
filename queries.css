@@ -1,0 +1,281 @@
+/* rem and en do NOT depend on html font-size in media queries! instrad, 1rem=1em=16px */
+
+
+/**********************/
+/*-----below 1296 rem-------*/
+/**********************/
+@media (max-width:81em){
+  .header{
+    max-width: 128rem;
+  }
+  .hero{
+    max-width: 128rem;
+    gap: 2.4rem;
+  }
+  h1{
+    font-size: 7rem;
+  }
+  h2{
+    font-size: 4.6rem;
+  }
+  .cta_heading{
+    font-size: 3.8rem;
+  }
+  .direct_chat{
+    width: 9rem;
+    height: 9rem;
+  }
+  .cta_description{
+    font-size: 1.6rem;
+  }
+  .cta_buttons a:link,
+  .cta_buttons a:visited{
+    font-size: 5rem;
+  }
+  .support_image{
+    height: 5.5rem;
+    width: 5.5rem;
+  }
+  .support_block{
+    width: 48%;
+  }
+  .support_text{
+    font-size: 1.8rem;
+  }
+
+}
+
+/**********************/
+/*-----below 1200 rem-------*/
+/**********************/
+@media (max-width:75em){
+  html{
+    font-size: 56.25%;
+  }
+  .blue_square{
+    left: 90rem;
+  }
+  .hero{
+    gap: 0rem;
+  }
+  .heading_of_section{
+    font-size: 2.2rem;
+  }
+  .heading_underline{
+    width: 2.1rem;
+    height: 3px;
+  }
+  .hero_img{
+    width: 45%;
+  }
+  .roles_skills{
+    gap: 3.8rem;
+  }
+  .card_list_item{
+    font-size: 1.7rem;
+  }
+  .skills{
+    font-size: 1.7rem;
+  }
+  .certificate_box{
+    height: 22rem;
+  }
+  .blender_work, .recent_work_container{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+/**********************/
+/*-----below 960 rem-------*/
+/**********************/
+@media (max-width:60em){
+  /* 8/16=0.5*100=50% */
+  html{
+    font-size: 50%;
+  }
+  .blue_square{
+    left: 85rem;
+  }
+  .hero{
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .certificate_box{
+    height: 18rem;
+  }
+  .hero_img{
+    width: 30%;
+  }
+  .hi,.name,.roles{
+    text-align: center;
+  }
+  .roles_skills{
+    grid-template-columns: 1fr;
+  }
+  .section_cards{
+    background-image: none;
+  }
+  .card{
+    width: 40%;
+    margin: 0 auto;
+  }
+  .score_card_imgs{
+    grid-template-columns: 1fr;
+  }
+  .score_card_1 img{
+    width: 40%;
+    align-items: center;
+    margin-left: 30%;
+
+  }  
+  .cta_box{
+    grid-template-columns: 1fr;
+  }
+  .cta_form{
+    grid-template-columns: 1fr;
+    width: 40rem;
+    margin: 0 auto;
+  }
+  .inputs input,
+  .inputs select,
+  .inputs button{
+    height: 4rem;
+  }
+  .inputs label{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .inputs select{
+    font-size: 2rem;
+  }
+  .cta_heading{
+    font-size: 4rem;
+  }
+  .cta_description{
+    font-size: 2rem;
+  }
+  .cta_box{
+    width: 70%;
+  }
+  .cta_box::before{
+    height: 0.5px;
+    width: 80%;
+    top: 80%;
+    left: 10%;
+  }
+  .cta_buttons{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+  }
+  .support_block{
+    width: 60%;
+  }
+  .m{
+    margin-left: 5rem;
+  }
+  .w{
+    margin-right: 5rem;
+  }
+  .section_cta::before{
+    clip-path: circle(13% at 86% 80%);
+  }
+  .section_cta::after{
+    clip-path: circle(9% at 17% 20%);
+  }
+
+
+}
+
+/**********************/
+/*-----below 704 rem-------*/
+/**********************/
+@media (max-width:44em){
+  .card{
+    width: 60%;
+  }
+  .section_certificate_list{
+    grid-template-columns: 1fr 1fr;
+  }
+  .hi{
+    font-size: 1.8rem;
+  }
+  .name{
+    font-size: 6rem;
+  }
+  .roles{
+    font-size: 4rem;
+  }
+  .cta_form{
+    width: 100%;
+  }
+  .cta_box{
+    width: 85%;
+  }
+  .support_block{
+    width: 80%;
+  }
+  .section_cta::before{
+    clip-path: circle(13% at 88% 82%);
+  }
+  .section_cta::after{
+    clip-path: circle(9% at 12% 17%);
+  }
+  .cta_description{
+    font-size: 1.8rem;
+  }
+}
+
+/**********************/
+/*-----below 512 rem-------*/
+/**********************/
+@media (max-width:32em){
+  .hero_img{
+    width: 40%;
+  }
+  .card{
+    width: 95%;
+  }
+  .section_certificate_list{
+    grid-template-columns: 1fr;
+  }
+  .certificate_box{
+    width: 100%;
+    height: 24.5rem;
+  }
+  .cta_box{
+    width: 100%;
+  }
+  .recent_work_box{
+    width: 35rem;
+    height: 20rem;
+  }
+  .blender_box img,.blender_box video{
+    width: 35rem;
+    height: 20rem;
+  }
+  .section_cta{
+    padding: 18.8rem 4rem;
+  }
+  .support_block{
+    width: 100%;
+  }
+  .support_box{
+    padding: 0 4rem 6.4rem;
+  }
+  .cta_left{
+    padding: 2.8rem 4.4rem 4.4rem 4.4rem;
+  }
+  .clip_path_link{
+    padding-top: 6rem;
+    font-size: 3rem;
+  }
+  
+
+
+  
+  
+
+
+}

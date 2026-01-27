@@ -314,9 +314,21 @@
   .cta_box {
     width: 100%;
   }
+  .recent_work_container {
+    margin-bottom: 100px;
+  }
   .recent_work_box {
-    width: 35rem;
-    height: 20rem;
+    width: 100%;
+  }
+  .code_like_box {
+    height: 20px;
+    gap: 4px;
+    padding: 0 12px;
+  }
+
+  .code_like_dot {
+    width: 6px;
+    height: 6px;
   }
   .blender_box img,
   .blender_box video {

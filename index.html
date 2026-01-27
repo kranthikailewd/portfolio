@@ -38,6 +38,8 @@
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
 
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 </head>
 
 <body>
@@ -46,7 +48,7 @@
       <div class="header">
       <img class="logo" src="images\1661402172084.png" alt="logo of Kranthi Kumar Kaile - K3">
       <div class="Resume_button">
-        <a class="Resume_link" href="K.Kranthi Kumar Dec 2025.pdf" download>Resume</a>
+        <a class="Resume_link" href="K.Kranthi_Kumar_Jan_2026.pdf" download>Resume</a>
         <ion-icon  class="Download_icon" name="download"></ion-icon>
       </div>
       </div>
@@ -55,18 +57,13 @@
       <div class="hero_text_box">
         <p class="hi">Hi my name is,</p>
         <h1 class="name">Kranthi Kumar Kaile</h1>
-        <div class="role-container">
-          <div class="role-viewport">
-            <div class="role-track" id="roleTrack">
-              <span>Frontend</span>
-              <span>Backend</span>
-              <span>Full Stack</span>
-              <!-- duplicate first for seamless loop -->
-              <span>Frontend</span>
-            </div>
-          </div>
-          <span class="static-word">Developer</span>
-        </div>
+        <lottie-player class="role_animation"
+          src="images/developer-roles-animation.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay>
+        </lottie-player>
         <span class="analyst">& Data Analyst</span>
       </div>
       <div class="hero_img_box">
@@ -466,28 +463,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
   <script src="./carousel.js"></script>
-<script>
-  const track = document.getElementById("roleTrack");
-  const itemHeight = track.children[0].offsetHeight;
-
-  let index = 0;
-  const totalItems = track.children.length;
-
-  setInterval(() => {
-    index++;
-    track.style.transition = "transform 0.6s ease";
-    track.style.transform = `translateY(-${index * itemHeight}px)`;
-
-    // seamless reset when reaching duplicate
-    if (index === totalItems - 1) {
-      setTimeout(() => {
-        track.style.transition = "none";
-        track.style.transform = "translateY(0)";
-        index = 0;
-      }, 600);
-    }
-  }, 3000);
-</script>
 
 
 </body>

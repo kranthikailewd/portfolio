@@ -41,15 +41,6 @@
   .support_text {
     font-size: 1.8rem;
   }
-  .role-container {
-    font-size: 4.2rem; /* scales via media queries */
-  }
-  .role-track span {
-    height: 1.5em;
-    line-height: 1.5em;
-    color: #5b86de;
-    text-align: center;
-  }
   .analyst {
     font-size: 4.2rem;
     font-weight: 700;
@@ -96,15 +87,10 @@
   .recent_work_container {
     grid-template-columns: 1fr;
   }
-  .role-container {
-    font-size: 4rem; /* scales via media queries */
+  .role_animation {
+    height: 42px;
   }
-  .role-track span {
-    height: 1.5em;
-    line-height: 1.5em;
-    color: #5b86de;
-    text-align: center;
-  }
+
   .analyst {
     font-size: 4rem;
     font-weight: 700;
@@ -211,22 +197,18 @@
   .section_cta::after {
     clip-path: circle(9% at 17% 20%);
   }
-  .role-container {
-    font-size: 4rem; /* scales via media queries */
-    justify-content: center;
+  .role_animation {
+    height: 38px;
+    width: 100%;
   }
-  .role-track span {
-    height: 1.5em;
-    line-height: 1.5em;
-    color: #5b86de;
-    text-align: center;
-  }
+
   .analyst {
     font-size: 4rem;
     font-weight: 700;
     color: #666;
     margin: auto;
     display: block;
+    text-align: center;
   }
 }
 
@@ -267,22 +249,18 @@
   .cta_description {
     font-size: 1.8rem;
   }
-  .role-container {
-    font-size: 3.8rem; /* scales via media queries */
-    justify-content: center;
+  .role_animation {
+    height: 38px;
+    width: 100%;
   }
-  .role-track span {
-    height: 1.5em;
-    line-height: 1.5em;
-    color: #5b86de;
-    text-align: center;
-  }
+
   .analyst {
     font-size: 3.8rem;
     font-weight: 700;
     color: #666;
     margin: auto;
     display: block;
+    text-align: center;
   }
 }
 
@@ -351,22 +329,17 @@
     padding-top: 6rem;
     font-size: 3rem;
   }
-  .role-container {
-    font-size: 3.8rem; /* scales via media queries */
-    justify-content: center;
+  .role_animation {
+    height: 38px;
+    width: 100%;
   }
 
-  .role-track span {
-    height: 1.5em;
-    line-height: 1.5em;
-    color: #5b86de;
-    text-align: center;
-  }
   .analyst {
     font-size: 3.8rem;
     font-weight: 700;
     color: #666;
     margin: auto;
     display: block;
+    text-align: center;
   }
 }

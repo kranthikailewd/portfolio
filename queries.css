@@ -210,6 +210,9 @@
     display: block;
     text-align: center;
   }
+  .irc_certificate {
+    width: 400px;
+  }
 }
 
 /**********************/
@@ -261,6 +264,9 @@
     margin: auto;
     display: block;
     text-align: center;
+  }
+  .irc_certificate {
+    width: 350px;
   }
 }
 
@@ -341,5 +347,8 @@
     margin: auto;
     display: block;
     text-align: center;
+  }
+  .irc_certificate {
+    width: 80%;
   }
 }
